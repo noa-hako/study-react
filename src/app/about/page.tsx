@@ -13,9 +13,9 @@ export default function Home() {
           priority
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">Main Pageだよ</li>
-          <li className="mb-2">ほんとに動いているのか？</li>
-          <li className="mb-2">わかりやすいnextジェイエスだよ</li>
+          <li className="mb-2">About Page</li>
+          <li className="mb-2">こっちはアバウトのページ</li>
+          <li className="mb-2">HANNIオンニ</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
