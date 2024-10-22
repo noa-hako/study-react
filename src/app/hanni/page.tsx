@@ -1,7 +1,6 @@
 import { Footer } from "@/components/Footer";
 import Headline from "@/components/Headline";
 import Links from "@/components/Links";
-import Image from "next/image";
 
 export const metadata = {
   title: "Hanni Page", // このページ固有のタイトル

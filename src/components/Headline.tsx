@@ -4,7 +4,13 @@ export const metadata = {
   title: "Haerin Page", // このページ固有のタイトル
 };
 
-export default function Headline(props: any) {
+type HeadlineProps = {
+  title: string;
+  message: string;
+  song: string;
+};
+
+export default function Headline(props: HeadlineProps) {
   return (
     <>
       <Image
